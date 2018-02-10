@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Saira+Extra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
+
 <body>
-    <p>Hello, world! Hi!</p>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fade-in one" id="side-nav">
+        <a class="navbar-brand" href="#">
+            <span class="brand">Portfolio Site</span>
+            <img class="img-fluid profile" src="assets/astronaut.jpg" alt="Astronaut" />
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav flex-column text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <main class="fade-in two">
+        <!--Jumbotron may be used later, but will be left out for now. -->
+        <!-- <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+        </div>-->
+
+        <section id="about">
+            <h1 id="type-animation">
+                Diego Alves, <span class="accent">Web Developer <i class="fas fa-code"></i></span>
+            </h1>
+            <p>Description to be added. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi minima mollitia eos velit molestiae exercitationem explicabo hic accusantium quas earum. Amet totam nostrum pariatur doloribus, obcaecati dicta quidem
+                voluptate quo.
+            </p>
+
+        </section>
+        <hr>
+        <section id="projects">
+            <h2>
+                Projects
+            </h2>
+
+
+            <div class="row">
+                <div class="card col-md-5">
+                    <div class="placeholder"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Project</a>
+                    </div>
+                </div>
+                <div class="card col-md-5">
+                    <div class="placeholder"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Project</a>
+                    </div>
+                </div>
+                <div class="card col-md-5">
+                    <div class="placeholder"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Project</a>
+                    </div>
+                </div>
+                <div class="card col-md-5">
+                    <div class="placeholder"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Launch Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>
+                Contact
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iure atque deleniti inventore laudantium, neque obcaecati alias, libero ab, ratione esse officia corrupti laboriosam repellendus eos eveniet! Temporibus, aspernatur laborum.</p>
+            <p class="lead">Connect with me. (Links below will be added later.)</p>
+            <a href="#"><i class="fab fa-linkedin-in fa-3x"></i> </a> <a href="#"><i class="fab fa-github fa-3x"></i> </a> <a href="#"><i class="fab fa-stack-overflow fa-3x"></i> </a>
+        </section>
+    </main>
+    <footer class="text-center">
+        <p>Copyright</p>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/typeit.min.js"></script>
+    <script>
+        new TypeIt('#type-animation', {
+            speed: 100,
+            startDelay: 2000
+
+
+        });
+    </script>
 </body>
+
 </html>
