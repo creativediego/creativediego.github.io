@@ -398,9 +398,9 @@ a:focus,
 	font-size: 3em!important;
 }
 
-.jumbotron .text-col{
+/* .jumbotron .text-col{
     margin-top:50px;
-}
+} */
 
 .jumbotron h1{
     font-weight:600;
@@ -919,8 +919,8 @@ a:focus,
 }
 
 #project-modal .close{
-    float:none;
-    font-size:30px !important;
+    float:right;
+    font-size:40px !important;
     line-height:30px;
     font-weight:300;
     margin-top:0px;

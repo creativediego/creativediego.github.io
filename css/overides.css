@@ -1,0 +1,47 @@
+.project-intro {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.youtube-wrapper {
+    margin-bottom: 40px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#project-modal {
+    /* display: flex !important; */
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.modal-dialog {
+    width: 90vw;
+    height: 90vh;
+    /* overflow: hidden; */
+}
+
+.modal-header {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#hdr-title {
+    margin: 5px !important;
+}
+
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+@media (max-width: 767px) {
+    .youtube-wrapper {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
